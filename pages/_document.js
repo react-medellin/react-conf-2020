@@ -10,6 +10,11 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
         </Head>
+        <style jsx>{`
+          #__next {
+            height: 100%;
+          }
+        `}</style>
         <body>
           <Main />
           <NextScript />

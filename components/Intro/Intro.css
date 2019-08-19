@@ -1,0 +1,14 @@
+.title {
+  color: var(--color-cyan800);
+  font-size: var(--typography-font48);
+  font-weight: var(--typography-fontBlack);
+  line-height: var(--typography-font48);
+  margin-top: 50px;
+}
+.subTitle {
+  color: var(--color-cyan1000);
+  font-size: var(--typography-font32);
+  font-weight: var(--typography-fontBold);
+  line-height: var(--typography-font32);
+  margin-top: 24px;
+}

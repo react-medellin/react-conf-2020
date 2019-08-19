@@ -1,0 +1,15 @@
+:root {
+  --typography-font12: 12px;
+  --typography-font14: 14px;
+  --typography-font16: 16px;
+  --typography-font18: 18px;
+  --typography-font20: 20px;
+  --typography-font24: 24px;
+  --typography-font32: 32px;
+  --typography-font48: 48px;
+  --typography-font60: 60px;
+  --typography-font72: 72px;
+  --typography-fontNormal: 400;
+  --typography-fontBold: 500;
+  --typography-fontBlack: 700;
+}

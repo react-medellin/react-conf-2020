@@ -13,3 +13,10 @@ body,
 html {
   height: 100%;
 }
+
+/* targets #__next element */
+body > div {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  height: 100%;
+}

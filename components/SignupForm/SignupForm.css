@@ -35,6 +35,7 @@
 .cta {
   background-color: var(--color-pink500);
   border-radius: 18px;
+  border: none;
   color: var(--color-pink1000);
   font-weight: var(--typography-fontBold);
   margin-top: 16px;

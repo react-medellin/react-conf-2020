@@ -1,9 +1,14 @@
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+
 .title {
   color: var(--color-cyan800);
   font-size: var(--typography-font48);
   font-weight: var(--typography-fontBlack);
   line-height: var(--typography-font48);
-  margin-top: 50px;
 }
 .subTitle {
   color: var(--color-cyan1000);

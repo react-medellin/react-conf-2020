@@ -4,7 +4,14 @@ import Footer from '../components/Footer';
 
 const Home = () => (
   <>
-    <main style={{ height: '100%', minHeight: '100%' }}>
+    <main
+      style={{
+        height: '100%',
+        minHeight: '100%',
+        maxWidth: '768px',
+        margin: '0 auto',
+      }}
+    >
       <Intro />
       <SignupForm />
     </main>

@@ -49,3 +49,27 @@
 .cta:hover {
   cursor: pointer;
 }
+
+@media (min-width: 768px) {
+  .container {
+    border-radius: 10px;
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+
+  .label {
+    font-size: var(--typography-font24);
+    line-height: var(--typography-font24);
+  }
+
+  .input {
+    font-size: var(--typography-font18);
+    padding: 16px 30px;
+  }
+
+  .cta {
+    font-size: var(--typography-font20);
+    line-height: var(--typography-font20);
+    padding: 15px 0;
+  }
+}

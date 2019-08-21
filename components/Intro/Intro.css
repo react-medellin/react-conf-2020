@@ -17,3 +17,20 @@
   line-height: var(--typography-font32);
   margin-top: 24px;
 }
+
+@media (min-width: 768px) {
+  .container {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+
+  .title {
+    font-size: var(--typography-font72);
+    line-height: var(--typography-font72);
+  }
+
+  .subTitle {
+    font-size: var(--typography-font48);
+    line-height: var(--typography-font48);
+  }
+}

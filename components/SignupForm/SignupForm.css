@@ -2,7 +2,7 @@
   background-color: var(--color-indigo1000);
   color: var(--color-indigo100);
   margin-top: 50px;
-  padding: 30px;
+  padding: 15px 30px;
 }
 
 .label {
@@ -48,4 +48,66 @@
 
 .cta:hover {
   cursor: pointer;
+}
+
+/* Mediaqueries */
+@media (min-width: 768px) {
+  .container {
+    border-radius: 4px;
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    max-width: 60%;
+    padding: 20px 30px 50px;
+  }
+
+  .title {
+    width: 100%;
+  }
+
+  .input {
+    border-radius: 18px 0 0 18px;
+    width: 70%;
+  }
+
+  .cta {
+    align-self: center;
+    border-radius: 0 18px 18px 0;
+    width: 30%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 50%;
+  }
+
+  .title {
+    font-size: var(--typography-font20);
+  }
+
+  .label {
+    font-size: var(--typography-font18);
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 30%;
+  }
+
+  .title {
+    font-size: var(--typography-font24);
+  }
+
+  .label {
+    font-size: var(--typography-font20);
+  }
+
+  .input,
+  .cta {
+    margin-top: 30px;
+  }
 }

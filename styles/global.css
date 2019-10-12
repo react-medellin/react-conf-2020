@@ -20,3 +20,8 @@ body > div {
   grid-template-rows: 1fr auto;
   height: 100%;
 }
+
+
+input {
+  outline: none;
+}
